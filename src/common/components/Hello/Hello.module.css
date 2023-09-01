@@ -1,0 +1,15 @@
+.hello{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    flex-direction: column;
+}
+
+.hello p{
+    margin-top: -60px;
+    margin-left: 5px;
+    color: var(--word-color);
+}

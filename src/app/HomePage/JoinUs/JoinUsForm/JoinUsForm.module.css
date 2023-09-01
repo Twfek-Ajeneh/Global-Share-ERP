@@ -1,0 +1,93 @@
+.join-us-form{
+  width: 100%;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+/********************************************* Header Section *********************************************/
+
+.header{
+  width: 100%;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(42, 40, 40);
+  z-index: 4;
+  position: relative;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo svg:first-child{
+  width: 50px;
+  height: 50px;
+}
+
+/********************************************* body Section *********************************************/
+
+.body > h1{
+  margin: 0;
+  padding: 0;
+  color: var(--primary-main);
+  max-width: calc(100% - 280px);
+  font-size: 65px;
+  font-weight: 900;
+  padding: 90px 0 30px;
+  border-bottom: 1px solid var(--primary-main);
+  margin-bottom: 30px;
+  margin-left: 140px;
+}
+
+.form{
+  padding: 50px 140px;
+}
+
+.questions{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(350px,1fr));
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 40px; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.questions > div{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.break{
+  width: 100%;
+  height: 2px;
+  background-color: var(--natural-alpha-7);
+}
+
+.form > label{
+  margin-top: 90px;
+}
+
+/* error */
+
+.error-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  gap: 30px;
+  background-color: var(--background-color);
+}

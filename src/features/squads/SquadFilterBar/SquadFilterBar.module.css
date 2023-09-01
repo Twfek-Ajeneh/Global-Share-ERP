@@ -1,0 +1,48 @@
+.bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.filter-bar {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.filter-bar  input:first-of-type{
+	border: none;
+}
+
+.filter-bar > div label,
+.filter-bar > div span {
+	display: none;
+}
+
+.bar-buttons{
+	display: flex;
+	gap: 7px;
+}
+
+.reset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 9px;
+	width: 40px;
+	height: 30px;
+	background-color: var(--natural-alpha-7);
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.reset:hover {
+	background-color: var(--error-main);
+	color: white;
+}

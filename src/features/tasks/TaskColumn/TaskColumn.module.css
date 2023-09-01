@@ -1,0 +1,15 @@
+.task-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.task-column-body{
+	min-height: 400px;
+	padding-bottom: 20px;
+	/* max-height: 700px; */
+	/* overflow: hidden; */
+}
+
+.task-column-body::-webkit-scrollbar {
+	width: 0px;
+}

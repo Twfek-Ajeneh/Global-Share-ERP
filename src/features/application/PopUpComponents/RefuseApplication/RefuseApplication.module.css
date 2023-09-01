@@ -1,0 +1,62 @@
+.refuse-reason{
+  width: 340px;
+  height: 290px;
+  background-color: white;
+  padding: 24px;
+  position: relative;
+}
+
+.refuse-reason-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.refuse-reason-header h2{
+  margin: 0;
+  padding: 0;
+  color: var(--word-color);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.refuse-reason-body{
+  display: flex;
+  flex-direction: column;
+} 
+
+.box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box > div label{
+  display: none;
+}
+
+.buttons{
+  display: flex;
+  gap: 26px;
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+}
+
+.email{
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+}
+
+.email button{
+  margin: 0;
+  justify-content: space-evenly !important;
+}
+
+.buttons label{
+  background-color: var(--error-main);
+}
+
+

@@ -1,0 +1,35 @@
+.feedback{
+    width: 430px;
+    height: fit-content;
+    border: 1px solid var(--border-color);
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    padding: 20px;
+}
+
+.feedback > h2{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--word-color);
+    text-transform: capitalize;
+}
+
+.feedback > div{
+    margin-top: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #768396;
+    line-height: 1.3;
+}   

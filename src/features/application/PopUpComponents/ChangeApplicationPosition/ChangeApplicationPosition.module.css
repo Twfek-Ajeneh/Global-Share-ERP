@@ -1,0 +1,57 @@
+.change-application-position{
+  width: 440px;
+  height: 220px;
+  background-color: white;
+  padding: 24px;
+  position: relative;
+}
+
+.change-application-position-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.change-application-position-header h2{
+  margin: 0;
+  padding: 0;
+  color: var(--word-color);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.change-application-position-body{
+  display: flex;
+  flex-direction: column;
+} 
+
+.box > div label{
+  display: none;
+}
+
+.buttons{
+  display: flex;
+  position: absolute;
+  gap: 26px;
+  bottom: 24px;
+  right: 24px;
+}
+
+.email{
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.email button{
+  margin: 0;
+  justify-content: space-evenly !important;
+}
+
+.buttons label{
+  background-color: var(--secondary-dark);
+}
+
+

@@ -1,0 +1,29 @@
+.task-page{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 0 0 45px;
+  padding-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.task-page-body{
+  width: 1380px;
+  height: calc(100vh - 105px);
+  display: flex;
+  align-items: flex-start;
+  overflow: auto;
+  /* overflow: hidden; */
+  gap: 16px;
+  padding: 0 15px;
+}
+
+
+.center{
+  margin: 0;
+  margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

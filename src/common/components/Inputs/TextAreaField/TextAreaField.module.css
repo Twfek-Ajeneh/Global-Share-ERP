@@ -1,0 +1,28 @@
+.text-area{
+    border: .1rem solid var(--border-color);
+    width: 333px;
+    height: 45px;
+    color: var(--natural-alpha-2);
+    outline: none;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    resize: none;
+}
+
+.text-area:focus{
+    color: var(--primary-main);
+    border-color: var(--primary-main);
+}
+
+.text-area::placeholder{
+    color: var(--natural-alpha-3);
+    font-weight: 300;
+    text-transform: capitalize;
+}

@@ -1,0 +1,81 @@
+.edit-vacancy{
+  padding: 36px 55px 120px;
+  position: relative;
+}
+
+.edit-vacancy-header{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.edit-vacancy-header h1{
+  color: var(--word-color);
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.edit-vacancy-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  display: flex;
+  gap: 25px;
+}
+
+.break{
+  width: 530px;
+  height: 1px;
+  background-color: var(--natural-7);
+  margin-bottom: 30px;
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+}
+
+.question{
+  display: flex;
+  gap: 37px;
+  align-items: flex-start;
+}
+
+.buttons{
+  position: fixed;
+  bottom: 47px;
+  right: 54px;
+}
+
+.add-button{
+  position: fixed;
+  bottom: 47px;
+  right: 293px;
+}
+
+.add-button > button{
+  margin: 0;
+}
+
+.edit-vacancy-loader{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.edit-vacancy-loader > div{
+  background-color: transparent;
+}
+
+.delete-button{
+  margin-top: 9px;
+  border-radius: 8px;
+  background: rgba(234, 84, 85, 0.16);
+  padding: 9px 12px;
+  cursor: pointer;
+}

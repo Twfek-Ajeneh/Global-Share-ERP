@@ -1,0 +1,122 @@
+.edit-question{
+    width: 440px;
+    min-height: 330px;
+    background-color: white;
+    padding: 24px;
+    position: relative;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.edit-question-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit-question-header h2{
+    margin: 0;
+    padding: 0;
+    color: var(--word-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.edit-question-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-question-body .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.edit-question-body .box label{
+    display: none;
+}
+
+.options{
+    width: 100%;
+    border: .1rem solid var(--border-color);
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    display: flex;
+    padding: 15px 15px 20px 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.options .add,
+.options .delete{
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background-color: var(--natural-alpha-7);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options > :first-child{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.options .option{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 30px;
+    gap: 15px;
+}
+
+.options .option input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.options .option div{
+    margin: 0;
+}
+
+.options .option label,
+.options .option span{
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}

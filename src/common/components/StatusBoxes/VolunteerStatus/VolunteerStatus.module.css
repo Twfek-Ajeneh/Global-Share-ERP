@@ -1,0 +1,26 @@
+.status-box{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--active-background);
+  color: var(--active-main);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.status-box-warning{
+  color: var(--warning-main);
+  background-color: var(--warning-background);
+}
+
+.status-box-error{
+  color: var(--error-main);
+  background-color: var(--error-background);
+}

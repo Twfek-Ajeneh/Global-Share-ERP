@@ -1,0 +1,47 @@
+.finish-task {
+  width: 336px;
+  height: 200px;
+  background: white;
+  border-radius: 9px;
+  padding: 24px;
+}
+
+.finish-task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.finish-task h2 {
+  margin: 0;
+  padding: 0;
+  color: var(--word-color);
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.finish-task form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.finish-task form div:first-child {
+  margin: 0;
+  width: 100%;
+}
+
+.finish-task form div:first-child input {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.finish-task form input:last-child {
+  padding: 12px 30px;
+}

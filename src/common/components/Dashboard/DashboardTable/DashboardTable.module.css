@@ -1,0 +1,22 @@
+.edit-icon:hover{
+    color: var(--primary-main) !important;
+}
+
+.delete-icon:hover{
+    color: var(--error-main) !important; 
+}
+
+.empty-table,
+.progress-table{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty-table p{
+    text-transform: capitalize;
+    color: var(--natural-1);
+}

@@ -1,0 +1,44 @@
+.add-tasks{
+  width: 439px;
+  height: 425px;
+  background: white;
+  border-radius: 9px;
+  padding: 24px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.header h2{
+  color: var(--word-color);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.add-tasks form{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.add-tasks form .box{
+  display: flex;
+  gap: 14px;
+  height: fit-content;
+}
+
+.add-tasks form .box div > span ,
+.add-tasks form .box div > label{
+    display: none;
+}
+
+.submit label{
+  display: block !important;
+  padding-top: 12px;
+}

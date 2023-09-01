@@ -1,0 +1,25 @@
+.difficulty-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-white);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-transform: capitalize;
+    width: 45px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--word-color);
+}
+
+.difficulty-box-medium{
+    width: 65px;
+}
+
+.difficulty-box-high{
+    width: 53px;
+}

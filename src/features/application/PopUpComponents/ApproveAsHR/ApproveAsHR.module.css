@@ -1,0 +1,37 @@
+.approve-as-hr{
+  width: 440px;
+  height: 360px;
+  background-color: white;
+  padding: 24px;
+  position: relative;
+}
+
+.approve-as-hr-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.approve-as-hr-header h2{
+  margin: 0;
+  padding: 0;
+  color: var(--word-color);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.approve-as-hr-body{
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+} 
+
+.email button{
+  margin: 0;
+  justify-content: space-evenly !important;
+}

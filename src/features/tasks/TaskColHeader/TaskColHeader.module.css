@@ -1,0 +1,64 @@
+.task-header{
+  min-width: 233px;
+  height: 54px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #232360;
+  text-transform: capitalize;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+
+.icons span{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.icons .delete-icon{
+  background-color: rgba(234, 84, 85, 0.16);
+}
+
+.icons .add-icon{
+  background-color: #E8EAFF;
+  cursor: pointer;
+}
+
+.icons .add-icon path{
+  stroke: #6772FE;
+}
+
+.icons .delete-icon path{
+  color: rgba(234, 84, 85, 1);
+}
+
+.icons svg{
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.add-task{
+  min-width: 233px;
+  justify-content: center;
+  gap:10px
+}
