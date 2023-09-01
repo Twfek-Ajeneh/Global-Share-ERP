@@ -19,7 +19,7 @@ The Global Share ERP System consists of several interconnected components that w
 
 
 ## Release
-- Feel free to try it from [Here](https://ibrahimhiarea.github.io/Global-Share/).
+- Feel free to try it from [Here](https://twfek-ajeneh.github.io/Global-Share-ERP/).
 - Note : 
     1. The server take time to turn on so be patient please.
     2. Use this account to login: username : ceo@gs.com , password : 12345678 
