@@ -14,7 +14,7 @@
     "main.14d8d4f4.js.map": "/Global-Share-ERP/static/js/main.14d8d4f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde45862.css",
-    "static/js/main.14d8d4f4.js"
+    "/Global-Share-ERP/static/css/main.fde45862.css",
+    "/Global-Share-ERP/static/js/main.14d8d4f4.js"
   ]
 }
