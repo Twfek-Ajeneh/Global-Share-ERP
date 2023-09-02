@@ -13,9 +13,9 @@ The Global Share ERP System consists of several interconnected components that w
 
 3. Recruitment Subsystem: Allows HR employees to manage job applications, control vacancies, track the recruitment process, and send automated emails to applicants. Feedback from HR employees and orchestrators can be gathered through the system.
 
-4. Dashboards: A dedicated section for managing the organization's structure, including squads, positions, and volunteer positions.
-
-5. Task Management Subsystem: Enables volunteers to view department boards and tasks, create new tasks, assign tasks to other members, track task progress, set priorities, filter and sort tasks, and add comments and attachments.
+4. Dashboards: A section dedicated to managing the structure of the organization, including teams, positions and volunteer positions consisting of a data table structure with server-side search, filtering and pagination
+   
+6. Task Management Subsystem: Enables volunteers to view department boards and tasks, create new tasks, assign tasks to other members, track task progress, set priorities, filter and sort tasks, and add comments and attachments.
 
 
 ## Release
